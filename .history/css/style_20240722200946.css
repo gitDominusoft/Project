@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand>img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.carousel-inner,
+.carousel-inner img {
+    height: 500px;
+}
+
+.imgCard {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin: 0 auto
+}
+
+.card {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.fa-heart {
+    font-size: 2em;
+    color: #ff0000;
+    position: relative;
+    top: 20px
+}
