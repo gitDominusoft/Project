@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- nis navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img src="images/logo.webp" alt="logo">Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fund navbar -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-6">
+                <h1>Contact US</h1>
+                <form onsubmit="Kontakt(event)">
+                    <div class="mb-3">
+                        <label for="emri" class="form-label">First Name</label>
+                        <input type="text" id="emri" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mbiemri" class="form-label">Last Name</label>
+                        <input type="text" id="mbiemri" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="koment" class="form-label">Comment</label>
+                        <textarea id="koment" class="form-control"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+                <p id="sms"></p>
+            </div>
+            <div class="col-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.2668420263067!2d19.810036048293114!3d41.32481053237209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031252753fc69%3A0x715b6f44a714404!2sMulliri%20i%20Vjet%C3%ABr%20-%20Rruga%20Myslym%20Shyri%20%26%20Sami%20Frash%C3%ABri!5e0!3m2!1sen!2s!4v1732552008905!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- nis footer -->
+    <footer class="container-fluid mt-5">
+        <div class="text-center">
+            <a href="www.instagram.com" class="fs-1 me-5"><i class="fa-brands fa-instagram"></i></a>
+            <a href="www.youtube.com" class="fs-1 me-5"><i class="fa-brands fa-youtube"></i></a>
+            <a href="www.facebook.com" class="fs-1 me-5"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="text-center">
+            <p>&copy CopyRight 2024</p>
+        </div>
+    </footer>
+    <!-- fund footer -->
+    <!-- Js Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
